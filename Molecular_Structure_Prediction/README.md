@@ -26,5 +26,5 @@ The prediction pipeline includes the following stages:
 4. → **ANI-2x Refinement** *(via TorchANI)*
 5. → **Final 3D Structure + Coordinates**
 
-![Workflow Diagram](Images/https://github.com/shubhshree018/Molecular_structure_Prediction/blob/main/Molecular_Structure_Prediction/Images/RefinedNH3.png)
+![RefinedNH3](Images/RefinedNH3.png)
 
