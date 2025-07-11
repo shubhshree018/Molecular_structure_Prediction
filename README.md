@@ -30,5 +30,6 @@ The prediction pipeline includes the following stages:
 
 This image shows the final optimized structure of an NH₃ molecule using the full pipeline.
 
-![Refined NH3](Images/RefinedNH3.png)
+![Refined NH3](https://raw.githubusercontent.com/shubhshree018/Molecular_Structure_Prediction/main/Images/RefinedNH3.png)
+
 
