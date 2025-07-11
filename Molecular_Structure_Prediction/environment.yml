@@ -1,0 +1,24 @@
+name: mol-geometry-pred
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - rdkit
+  - openbabel
+  - pybel
+  - ase
+  - matplotlib
+  - seaborn
+  - ipywidgets
+  - tqdm
+  - notebook
+  - jupyterlab
+  - h5py
+  - pip
+  - pip:
+      - torch
+      - torchani
+      - pyscf  # Optional: if using quantum chemistry calculations

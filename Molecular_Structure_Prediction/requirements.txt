@@ -1,0 +1,29 @@
+# Core libraries
+numpy
+pandas
+
+# Chemistry and molecular modeling
+rdkit
+openbabel
+pybel
+ase
+
+# Machine learning and neural potentials
+torch
+torchani
+
+# Optional: quantum chemistry (for future electron density calculations)
+pyscf
+
+# Visualization and utilities
+matplotlib
+seaborn
+ipywidgets
+tqdm
+
+# Jupyter support
+notebook
+jupyterlab
+
+# File handling
+h5py
