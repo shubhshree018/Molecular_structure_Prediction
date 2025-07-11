@@ -18,9 +18,10 @@ This multi-stage pipeline improves molecular geometry prediction for small organ
 
 ## Pipeline Workflow
 
-```mermaid
-graph TD
-    A[Input SMILES] --> B[VSEPR-based Initial Geometry]
-    B --> C[UFF Optimization (Open Babel)]
-    C --> D[ANI-2x Refinement (TorchANI)]
-    D --> E[Final 3D Structure + Coordinates]
+The prediction pipeline includes the following stages:
+
+1. **Input SMILES**
+2. → **VSEPR-based Initial Geometry**
+3. → **UFF Optimization** *(via Open Babel)*
+4. → **ANI-2x Refinement** *(via TorchANI)*
+5. → **Final 3D Structure + Coordinates**
