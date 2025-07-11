@@ -26,4 +26,9 @@ The prediction pipeline includes the following stages:
 4. → **ANI-2x Refinement** *(via TorchANI)*
 5. → **Final 3D Structure + Coordinates**
 
-![RefinedNH3](Images/RefinedNH3.png)
+### Refined NH₃ Example
+
+This image shows the final optimized structure of an NH₃ molecule using the full pipeline.
+
+![Refined NH3](Images/RefinedNH3.png)
+
